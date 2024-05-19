@@ -1,0 +1,28 @@
+console.log('\n');
+
+console.log('Hellow World!');
+
+function makeLine(size) {
+    let line = '';
+for (let i = 0; i < size; i++) {
+    line += '#';
+}
+return line;  
+}
+console.log(makeLine(5));
+
+
+
+function makeSquare(size) {
+    let square = '';
+
+    for (let i = 0; i < size; i++) {
+        square += makeLine(size) + "\n";
+ 
+   }
+   return square;
+}
+
+console.log(makeSquare(5));
+
+
