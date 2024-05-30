@@ -1,3 +1,4 @@
+//complete 5/29
 //Create an anonymous function and set it equal to a variable.
 
 /* Your function should:
@@ -13,3 +14,30 @@ c) Print the new array to confirm your work.
 */
 
 let arr = ['Elocution', 21, 'Clean teeth', 100];
+
+let practice = function(myArg) {
+    if (typeof myArg === "number") {
+       return myArg * 3;
+    } else if (typeof myArg === "string") {
+        return "ARRR!";
+     } else {
+        return myArg;
+     }
+  
+ }
+ let tripled = arr.map(practice);
+
+ console.log(arr);
+ console.log(tripled);
+
+//  ------------
+//  let nums = [3.14, 42, 4811];
+
+// let divideTwo = function (n) {
+//     return n/2;
+// };
+
+// let halved = nums.map(divideTwo);
+
+// console.log(nums);
+// console.log(halved);
