@@ -3,7 +3,7 @@ body {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   overflow-x: hidden;
   overflow-y: scroll;
-  background-image: url("triangles.jpg");
+  background-image: url("images/triangles.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
